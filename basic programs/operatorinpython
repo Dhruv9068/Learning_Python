@@ -1,0 +1,85 @@
+# Arithmetic operators
+a = 10 + 5
+b = 10 - 5
+c = 10 * 5
+d = 10 / 5
+e = 10 % 3
+f = 10 // 3
+g = 10 ** 2
+
+# Comparison operators
+h = 10 == 5
+i = 10 != 5
+j = 10 > 5
+k = 10 < 5
+l = 10 >= 5
+m = 10 <= 5
+
+# Assignment operators
+n = 10
+n += 5
+o = 10
+o -= 5
+p = 10
+p *= 5
+q = 10
+q /= 5
+r = 10
+r %= 3
+s = 10
+s //= 3
+t = 10
+t **= 2
+
+# Logical operators
+u = True and False
+v = True or False
+w = not True
+
+# Bitwise operators
+x = 10 & 5
+y = 10 | 5
+z = ~10
+bit_shift_left = 10 << 2
+bit_shift_right = 10 >> 2
+
+# Membership operators
+list_example = [1, 2, 3, 4, 5]
+membership_a = 3 in list_example
+membership_b = 6 not in list_example
+
+# Identity operators
+a_identity = 10
+b_identity = 10
+identity_check = a_identity is b_identity
+
+# Ternary operator
+ternary = "Even" if 10 % 2 == 0 else "Odd"
+
+# Operator precedence
+precedence = """
+Operator Precedence:
+1. Parentheses ( )
+2. Exponentiation **
+3. Unary plus (+), unary minus (-), bitwise complement (~)
+4. Multiplication (*), division (/), modulo (%), floor division (//)
+5. Addition (+), subtraction (-)
+6. Bitwise left shift (<<), bitwise right shift (>>)
+7. Bitwise AND (&)
+8. Bitwise OR (|)
+9. Comparison operators (==, !=, >, <, >=, <=)
+10. Logical NOT (not)
+11. Logical AND (and)
+12. Logical OR (or)
+"""
+
+# Print results
+print("Arithmetic operators:", a, b, c, d, e, f, g)
+print("Comparison operators:", h, i, j, k, l, m)
+print("Assignment operators:", n, o, p, q, r, s, t)
+print("Logical operators:", u, v, w)
+print("Bitwise operators:", x, y, z, bit_shift_left, bit_shift_right)
+print("Membership operators:", membership_a, membership_b)
+print("Identity operators:", identity_check)
+print("Ternary operator:", ternary)
+print(precedence)
